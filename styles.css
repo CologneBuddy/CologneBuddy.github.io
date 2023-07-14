@@ -1,0 +1,44 @@
+.countdown-container {
+    text-align: center;
+    margin-top: 100px;
+}
+
+body {
+    background-color: black;
+    line-height: 1;
+    color: rgb(226, 196, 170);
+    padding: 50px 20px;
+    margin: 25px 20px 0 0;
+    left: 20%;
+    top: 25%;
+    font-family: 'ComingSoon', Arial, sans-serif;
+}
+
+h1 {
+    color: rgb(210, 183, 29);
+    font-size: 40px;
+    line-height: 0.35;
+    font-family: 'CologneBuddy', Arial, sans-serif;
+}
+
+h2 {
+    font-size: 50px;
+    line-height: 0.5;
+}
+
+#countdown {
+    font-size: 70px;
+    font-weight: bold;
+    margin-top: 20px;
+    line-height: 1;
+}
+
+@font-face {
+    font-family: 'CologneBuddy';
+    src: url('TIMESS__.ttf') format('ttf')
+}
+
+@font-face {
+    font-family: 'ComingSoon';
+    src: url('Stay Dreaming.otf') format('otf')
+}
